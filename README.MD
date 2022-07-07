@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<img src="/img/telechargement.jpg" width="600" title="hover text">
+<img src="/img/money.jpg" width="600" title="hover text">
 </p>
 
 
