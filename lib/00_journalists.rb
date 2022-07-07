@@ -86,7 +86,7 @@ def search_index(journalists)
   puts "**********************************************************"
   puts ""
   sleep 2
-  puts journalists.index("@epenser")
+  puts " @penser est à la #{journalists.index("@epenser")} ème position dans l'array"
 end
 
 # Sors-moi une répartition des handle par taille de ces derniers (nombre de handle avec 1 caractère, nombre de handle avec 2 caractères, nombre de handle avec 3 caractères, etc)
@@ -104,7 +104,7 @@ def distribution_size_handle(journalists)
 end
 
 def menu
-  puts "  🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟   BIENVENUE DANS LE JEU DE QUESTIONS/REPONSES    🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟?"
+  puts "  🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟  BIENVENUE DANS LE JEU DE QUESTIONS/REPONSES  🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟"
   sleep 1
   puts ""
   puts " -----------------------------------      A vous de choisir !!     -----------------------------------------"
