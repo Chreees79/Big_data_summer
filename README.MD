@@ -1,9 +1,7 @@
                                             Bienvenue à toi ô grand correcteur!!
 
 
-<p align="center">
-<img src="/img/téléchargement.jpg" width="400" title="hover text">
-</p>
+
 
 
                   Tu trouveras sur ce repo des exercices proposés par THP, sur un array de journalistes twitterisés
