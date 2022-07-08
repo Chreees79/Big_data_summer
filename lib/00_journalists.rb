@@ -50,7 +50,7 @@ def upercase_handle(journalists)
   puts "**********************************************************"
   puts ""
   sleep 2
-    number = journalists.count {|journalist| journalist[1] == journalist[1].upcase}
+    number = journalists.count {|journalist| journalist[1] == journalist[1].upcase if journalist[1].match?(/[A-Z]/)}
     puts "il y a #{number} journalistes qui commencent par une majuscule"
 end
 

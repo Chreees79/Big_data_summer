@@ -1,0 +1,1 @@
+.delete_if {|journalist| journalist[1] == "_"}
