@@ -50,10 +50,8 @@ def upercase_handle(journalists)
   puts "**********************************************************"
   puts ""
   sleep 2
-  if journalists.any? {|journalist| journalist[1] == journalist[1].upcase}
     number = journalists.count {|journalist| journalist[1] == journalist[1].upcase}
     puts "il y a #{number} journalistes qui commencent par une majuscule"
-  end
 end
 
  # Trie la liste de handle par ordre alphabétique.
